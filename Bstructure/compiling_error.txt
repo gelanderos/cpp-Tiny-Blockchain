@@ -1,0 +1,14 @@
+/home/gerardo/Tiny Blockchain/Bstructure/blockhash.cpp: In function ‘std::__cxx11::string blockhasher(block)’:
+/home/gerardo/Tiny Blockchain/Bstructure/blockhash.cpp:9:31: error: ‘to_string’ is not a member of ‘std’
+   std::string predatatohash = std::to_string(btohash.indice) + std::to_string(btohash.nonce) + std::to_string(btohash.marcadetiempo) + btohash.blockdata + btohash.previousblockhash;
+                               ^
+/home/gerardo/Tiny Blockchain/Bstructure/blockhash.cpp:9:64: error: ‘to_string’ is not a member of ‘std’
+   std::string predatatohash = std::to_string(btohash.indice) + std::to_string(btohash.nonce) + std::to_string(btohash.marcadetiempo) + btohash.blockdata + btohash.previousblockhash;
+                                                                ^
+/home/gerardo/Tiny Blockchain/Bstructure/blockhash.cpp:9:96: error: ‘to_string’ is not a member of ‘std’
+   std::string predatatohash = std::to_string(btohash.indice) + std::to_string(btohash.nonce) + std::to_string(btohash.marcadetiempo) + btohash.blockdata + btohash.previousblockhash;
+                                                                                                ^
+/home/gerardo/Tiny Blockchain/Bstructure/blockhash.cpp: In function ‘block nextBlock(block)’:
+/home/gerardo/Tiny Blockchain/Bstructure/blockhash.cpp:47:47: error: ‘to_string’ is not a member of ‘std’
+   nextBlock.blockdata = "This is block No." + std::to_string(lastblock.indice + 1);
+                                               ^
